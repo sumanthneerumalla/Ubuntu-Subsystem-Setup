@@ -8,7 +8,7 @@ sudo add-apt-repository ppa:pdfchain-team/ppa
 
 
 #install programs
-sudo apt-get install git zsh vim emacs dtrx pdftk -y &
+sudo apt-get install python-pip git zsh vim emacs dtrx pdftk -y &
 
 
 #configure git
