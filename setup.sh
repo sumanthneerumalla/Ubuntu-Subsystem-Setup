@@ -15,5 +15,5 @@ sudo apt-get install python-pip git zsh vim emacs dtrx pdftk -y &
 git config --global user.name "sumanthneerumalla"
 
 echo "Dont forget to set up your git email"
-echo "git config --global user.email"
+echo "git config --global user.email <email here, in quotes>"
 
