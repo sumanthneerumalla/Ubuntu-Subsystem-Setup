@@ -6,6 +6,8 @@ echo "set bell-style none" >> ~/.inputrc
 #addrepos
 sudo add-apt-repository ppa:pdfchain-team/ppa
 
+#update
+sudo apt-get update
 
 #install programs
 sudo apt-get install python-pip git zsh vim emacs dtrx pdftk -y &
