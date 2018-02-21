@@ -17,6 +17,8 @@ sudo apt-get update
 #install programs
 sudo apt-get install python-pip git zsh vim emacs dtrx pdftk -y &
 
+#move the ssh config file into the .ssh folder
+sudo mv config .ssh/
 
 #configure git
 git config --global user.name "sumanthneerumalla"
@@ -32,3 +34,4 @@ tmpfile=$( mktemp -t transferXXX ); if tty -s; then basefile=$(basename "$1" | s
 
 echo""
 echo"Run the following to make a symbolic link \"ln -s /mnt/c/Users/Sumanth/Downloads Downloads\" "
+
