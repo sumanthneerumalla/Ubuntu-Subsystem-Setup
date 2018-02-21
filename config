@@ -1,0 +1,14 @@
+Host cyberD
+	HostName 172.21.0.42
+	User sumanth
+	ForwardX11 yes
+
+Host dream
+	HostName dream-lab.cs.umbc.edu
+	User sumanth
+	ForwardX11 yes
+Host ec2
+	HostName ec2-54-68-146-73.us-west-2.compute.amazonaws.com
+	User ubuntu
+	IdentityFile ~/Downloads/MedhacksKeyPair.pem
+	ForwardX11 yes
