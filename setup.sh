@@ -4,9 +4,9 @@
 echo "set bell-style none" >> ~/.inputrc
 
 #Make symbolic links
-ln -s /mnt/c/Users/Sumanth/Downloads Downloads
-ln -s /mnt/z/ z
-ln -s /mnt/c/Users/Sumanth/Desktop Desktop
+ln -s /mnt/c/Users/Sumanth/Downloads ~/Downloads
+ln -s /mnt/z/ ~/z
+ln -s /mnt/c/Users/Sumanth/Desktop ~/Desktop
 
 #addrepos
 sudo add-apt-repository ppa:pdfchain-team/ppa
